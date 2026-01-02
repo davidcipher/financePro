@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinancePro | Secure Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-$END$
+    <div class="container">
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert">{{ message }}</div>
+            {% endfor %}
+          {% endif %}
+        {% endwith %}
+
+        {% block content %}{% endblock %}
+
+        <footer style="text-align: center; margin-top: 40px; color: #888; font-size: 0.8rem;">
+            &copy; 2024 FinancePro Dashboard - Built with Python & Flask
+        </footer>
+    </div>
 </body>
 </html>
