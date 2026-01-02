@@ -87,7 +87,7 @@ def register():
 
 @app.route('/add', methods=['POST'])
 @login_required
-def add_transaction():
+def add():
     amount = request.form.get('amount')
     category = request.form.get('category')
     t_type = request.form.get('type')
