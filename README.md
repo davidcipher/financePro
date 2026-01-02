@@ -1,4 +1,4 @@
-# 📈 FinancePro | Full-Stack Financial Intelligence Dashboard
+#  FinancePro | Full-Stack Financial Intelligence Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Flask](https://img.shields.io/badge/Framework-Flask-lightgrey.svg)](https://flask.palletsprojects.com/)
@@ -30,14 +30,14 @@ Most trackers are either too simple (spreadsheets) or too invasive. FinancePro d
 
 ---
 
-## 📈 Technical Implementation Highlights
+##  Technical Implementation Highlights
 1.  **Relational Data Modeling:** Implemented complex database relationships where each `User` owns multiple `Expenses` and `Goals`, ensuring strict data isolation.
 2.  **Server-Side Logic:** Developed backend routes to calculate real-time balances and budget remainders before rendering to the client.
 3.  **Scalable CSS:** Used CSS variables and modular design patterns to ensure the dashboard looks professional on desktop, tablet, and mobile.
 
 ---
 
-## 💻 How to Run Locally
+##  How to Run Locally
 1. Clone the repo:
    `git clone https://github.com/YOUR_USERNAME/FinanceTracker-Pro.git`
 2. Install dependencies:
@@ -45,6 +45,8 @@ Most trackers are either too simple (spreadsheets) or too invasive. FinancePro d
 3. Run the application:
    `python app.py`
 4. Visit: `http://127.0.0.1:5000`
+
+   ## View live Demo {https://financepro-uzut.onrender.com}
 
 ---
 **Developed by Jose David Ndong Mba** *Looking to build secure, data-driven solutions.*
