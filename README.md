@@ -46,7 +46,7 @@ Most trackers are either too simple (spreadsheets) or too invasive. FinancePro d
    `python app.py`
 4. Visit: `http://127.0.0.1:5000`
 
-   ## View live Demo {https://financepro-uzut.onrender.com}
+   ## View live Demo https://financepro-uzut.onrender.com
 
 ---
 **Developed by Jose David Ndong Mba** *Looking to build secure, data-driven solutions.*
